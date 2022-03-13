@@ -8,17 +8,14 @@ import discord
 from discord.ext import commands
 import time
 
-#TOKEN='OTMwNTIyOTgxNDcyNTY3MzI3.Yd3HDw.7IKmGGpiDEWHhGNE9amfX0ePON8'
-
-#test dontuse below
-TOKEN ="OTQzNTQ5MTQyNTc0MTk0Njg4.Yg0qnQ.CD5JoRiKtfYNMQCOpskl-Kd0s9I"
+TOKEN ="OTUyNjEzNzIyNTMzMjY1NDA4.Yi4kqg.FOAKz4VbyKbPhTKJ61wybxRgwIM"
 
 client = discord.Client()
 
 cred = credentials.Certificate('firebase.json')
-#databaseurl = "https://wlgen2-default-rtdb.firebaseio.com/"
 
-databaseurl = "https://currency-ca187-default-rtdb.firebaseio.com/"
+
+databaseurl = "https://evzwl-725c2-default-rtdb.firebaseio.com/"
 
 firebase_admin.initialize_app(cred, {'databaseURL': databaseurl})
 
