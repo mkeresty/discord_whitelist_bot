@@ -8,14 +8,14 @@ import discord
 from discord.ext import commands
 import time
 
-TOKEN ="OTUyNjEzNzIyNTMzMjY1NDA4.Yi4kqg.FOAKz4VbyKbPhTKJ61wybxRgwIM"
+TOKEN =""
 
 client = discord.Client()
 
 cred = credentials.Certificate('firebase.json')
 
 
-databaseurl = "https://evzwl-725c2-default-rtdb.firebaseio.com/"
+databaseurl = ""
 
 firebase_admin.initialize_app(cred, {'databaseURL': databaseurl})
 
